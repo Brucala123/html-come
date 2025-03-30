@@ -85,5 +85,3 @@
 &clubs;
 &hearts;
 &diams;
-
-ola 2025
