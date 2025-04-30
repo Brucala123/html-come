@@ -86,4 +86,31 @@
 &hearts;
 &diams;
 
-ola
+
+formatações:
+
+<pre> todos os espaços e enters serão considerados
+<code> codigo - formata como em fonte de codigo
+<sub> subescrito - escreve embaixo
+<sup> supreescrito -  como se fosse elevado 
+<b> bold - coloca em negrito as palavras
+<i> italico - coloca em italico as palavras
+<em> enfase - parecido com o italico
+<u> underline - sublinha
+<del> risca - risca a palavra por cima
+<span> usada para formatar pequenos trechos de texto, podendo assim fazer <span style = "text-decoration: underline;"> ou overline, line-through e o none
+<span style = "font-weight: normal;"> ou bold, bolder ou colocar um valor entre 100-900
+Ter edições em separações de titulos, h1, como por exemplo:
+<h2 style = "text-align: center;"> ou left ou right
+<p style = "text-align: justify; text indent: 50px;> - coloca o paragrafo direito
+
+
+Para faazer isso de mandeira global, basta colocar em "head" o <style></style>, dentre eles vc coloca tudo que for de CSS
+
+Exemplo: 
+    <style>
+            p{
+                text-align: justify;
+                text-indent: 50px;
+            }
+        </style>
