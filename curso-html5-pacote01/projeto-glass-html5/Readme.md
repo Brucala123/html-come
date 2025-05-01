@@ -114,3 +114,14 @@ Exemplo:
                 text-indent: 50px;
             }
         </style>
+
+Edição de cores:
+hsl(x,x,x)
+hsla(x,x,x,x)
+rgb(x,x,x)
+rgba(x,x,x,x)
+hecadecimal: #192304
+
+ou colocar também imagens de fundo:
+url("")
+
