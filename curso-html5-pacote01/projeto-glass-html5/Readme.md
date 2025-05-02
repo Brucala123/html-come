@@ -116,6 +116,7 @@ Exemplo:
         </style>
 
 Edição de cores:
+(vermelho, verde, azul)
 hsl(x,x,x)
 hsla(x,x,x,x)
 rgb(x,x,x)
@@ -124,4 +125,19 @@ hecadecimal: #192304
 
 ou colocar também imagens de fundo:
 url("")
+
+
+Mudar o tamanho da imagem para o site ficar mais leve
+
+<figure> - usado para agrupar imagem e dar um significado semantico a elas
+<figcaption> - legenda para imagem
+exemplo:
+
+<figure>
+        [codigo de imagem]
+    <figcaption>
+        <h3>Olá!</h3>
+    </figcaption>
+</figure>
+
 
