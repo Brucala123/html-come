@@ -141,3 +141,67 @@ exemplo:
 </figure>
 
 
+COLOCAR O ESTILO (CSS) EM OUTRA PASTA: 
+
+@charset "UTF-8";
+
+[Codigo]
+
+No arquivo com html para fazer a ligação:
+
+rel = stylesheet - folha de estilo
+type = text/css
+href - hypertext reference, ele chama um arquivo de fora
+
+<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+
+
+SEMPRE QUE UTILIZAR O PARAMETRO "CLASS", ELE VAI SER ESCRITO ASSIM NO CSS:
+
+figure.foto-legenda{
+
+}
+
+DENTRO DO PARAMETRO PODES QUERER EDITAR ALGO ESPECIFICO, PODENDO ASSIM: 
+
+figure.foto-legenda img {
+
+}
+
+box-shadow:1px 1px 4px black;
+
+
+Codigo:
+NESTE CODIGO O "RELATIVE" TEM FUNÇÃO DE SER BASEADO NA POSIÇÃO QUE O FIGURE ESTÁ, FAZENDO O "ABSOLUTE" DO FIGCAPTION SER DENTRO DO CONTAINER DO FIGURE:
+
+
+figure.foto-legenda{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+}
+
+padding: 10px; - muda o espaço dentro da legenda, aumentando a legenda ou diminuindo
+
+box-sizing: ; - cria um box dentro da borda
+
+opacity: ; - o quao é visível a legenda
+
+
+----------------------------------
+O "hover" vai fzer com que exerça uma formatação expecifica quando o mouse passar em cima do objeto
+
+
+figure.foto-legenda:hover figcaption{
+
+}
+
+transition: opacity 1s; - faz com que tenha uma transição de 1s na opacidade
