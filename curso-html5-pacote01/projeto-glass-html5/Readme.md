@@ -205,3 +205,29 @@ figure.foto-legenda:hover figcaption{
 }
 
 transition: opacity 1s; - faz com que tenha uma transição de 1s na opacidade
+
+
+
+<nav> - cria um container de navegação
+
+transformar itens em lista:
+dentro de cada uma das listas tem o:
+
+list items - li
+------------------
+
+Ordered list - ol:
+tipos de listas ordenadas - 
++ type = "1"
++ type = "a"
++ type = "i"
+(para começar com outro numero ou letra tem o comando: start = "[numero]")
+-----------------
+
+unordered list - ul:
+tipos de listas nao ordenadas:
++ type = "square"
++ type = "circle"
++ type = "disc"
+
+
