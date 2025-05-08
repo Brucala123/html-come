@@ -66,7 +66,8 @@
 
 ------------
 
-&delta; &Delta;
+&delta; 
+&Delta;
 &lambda;
 &omega;
 &phi;
